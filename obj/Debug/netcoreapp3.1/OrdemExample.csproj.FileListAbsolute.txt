@@ -137,7 +137,6 @@ C:\Users\nayara.silva\Documents\OrdemExample\bin\Debug\netcoreapp3.1\Microsoft.E
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.csprojAssemblyReference.cache
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.AssemblyInfoInputs.cache
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.AssemblyInfo.cs
-C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.csproj.CoreCompileInputs.cache
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.dll
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.pdb
@@ -266,7 +265,6 @@ C:\Users\gabriela.gama\eld\OrderExample\bin\Debug\netcoreapp3.1\runtimes\win\lib
 C:\Users\gabriela.gama\eld\OrderExample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\staticwebassets\OrdemExample.StaticWebAssets.Manifest.cache
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\staticwebassets\OrdemExample.StaticWebAssets.xml
-C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\scopedcss\bundle\OrdemExample.styles.css
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.RazorTargetAssemblyInfo.cache
 C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.csproj.CopyComplete
-C:\Users\gabriela.gama\eld\OrderExample\obj\Debug\netcoreapp3.1\OrdemExample.genruntimeconfig.cache
+C:\Users\gabriela.gama\eld\OrderExample\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

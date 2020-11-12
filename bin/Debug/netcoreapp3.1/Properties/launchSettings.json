@@ -23,8 +23,7 @@
       "launchUrl": "weatherforecast",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ConnectionStrings_DefaultConnection":"Server=eldorado.database.windows.net;Database=explorerdb;user id=dbuser;password=F6FFA04A-694D-4B20-8BBC-6B341F364DEA"
+        "ASPNETCORE_ENVIRONMENT": "Development"
        
       }
     }
