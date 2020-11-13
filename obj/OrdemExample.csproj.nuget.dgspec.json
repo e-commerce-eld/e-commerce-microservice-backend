@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriela.gama\\eld\\OrderExample\\OrdemExample.csproj": {}
+    "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriela.gama\\eld\\OrderExample\\OrdemExample.csproj": {
+    "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriela.gama\\eld\\OrderExample\\OrdemExample.csproj",
+        "projectUniqueName": "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj",
         "projectName": "OrdemExample",
-        "projectPath": "C:\\Users\\gabriela.gama\\eld\\OrderExample\\OrdemExample.csproj",
-        "packagesPath": "C:\\Users\\gabriela.gama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriela.gama\\eld\\OrderExample\\obj\\",
+        "projectPath": "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj",
+        "packagesPath": "C:\\Users\\nayara.silva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabriela.gama\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nayara.silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.110\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

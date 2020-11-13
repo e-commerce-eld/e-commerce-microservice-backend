@@ -7,7 +7,9 @@ namespace OrdemExample.Models
         public int Id{get;set;}
         public string name{get;set;}
         public float cpf{get;set;}
-
-        public List<Order> Orders {get;set;}
     }
+
+//    public Order(){
+//        return Order.where()
+//    }
 }

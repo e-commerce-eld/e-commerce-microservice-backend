@@ -8,6 +8,7 @@ namespace OrdemExample.Models
             :base(options)
             {}
         public DbSet<Order> Orders{get;set;}
+        public DbSet<Client> Clients{get;set;}
         
     }
 }
