@@ -31,7 +31,7 @@ namespace OrdemExample.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
-            //var order = await _context.Orders.FindAsync(id);
+
             var order = await _context.Orders.Include(order => order.Client).FirstOrDefaultAsync(order => order.OrderId == id);
 
             if (order == null)
