@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj": {}
+    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\OrdemExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj": {
+    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\OrdemExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj",
+        "projectUniqueName": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\OrdemExample.csproj",
         "projectName": "OrdemExample",
-        "projectPath": "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\OrdemExample.csproj",
-        "packagesPath": "C:\\Users\\nayara.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nayara.silva\\Documents\\OrdemExample\\obj\\",
+        "projectPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\OrdemExample.csproj",
+        "packagesPath": "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nayara.silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nayara_rossi_brito_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
