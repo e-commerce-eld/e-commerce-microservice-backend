@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\obj"
   ],
-  "SelectedNode": "\\OrdemExample.csproj",
+  "SelectedNode": "\\obj\\project.nuget.cache",
   "PreviewInSolutionExplorer": false
 }
