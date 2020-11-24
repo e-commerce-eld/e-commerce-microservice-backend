@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using OrdemExample.Models;
+using Commerce.Models;
 
-namespace OrdemExample.Migrations
+namespace Commerce.Migrations
 {
     [DbContext(typeof(OrderContext))]
     [Migration("20201113130347_ClientsFix")]
@@ -20,7 +20,7 @@ namespace OrdemExample.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("OrdemExample.Models.Client", b =>
+            modelBuilder.Entity("Commerce.Models.Client", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -38,7 +38,7 @@ namespace OrdemExample.Migrations
                     b.ToTable("Clients");
                 });
 
-            modelBuilder.Entity("OrdemExample.Models.Order", b =>
+            modelBuilder.Entity("Commerce.Models.Order", b =>
                 {
                     b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd()
@@ -64,9 +64,9 @@ namespace OrdemExample.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("OrdemExample.Models.Order", b =>
+            modelBuilder.Entity("Commerce.Models.Order", b =>
                 {
-                    b.HasOne("OrdemExample.Models.Client", "Client")
+                    b.HasOne("Commerce.Models.Client", "Client")
                         .WithMany("Orders")
                         .HasForeignKey("ClientId")
                         .OnDelete(DeleteBehavior.Cascade)

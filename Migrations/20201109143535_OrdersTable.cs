@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace OrdemExample.Migrations
+namespace Commerce.Migrations
 {
     public partial class OrdersTable : Migration
     {

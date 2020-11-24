@@ -1,6 +1,6 @@
 using System;
 
-namespace OrdemExample
+namespace Commerce
 {
     public class WeatherForecast
     {

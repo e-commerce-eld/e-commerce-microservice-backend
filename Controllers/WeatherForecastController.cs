@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace OrdemExample.Controllers
+namespace Commerce.Controllers
 {
     [ApiController]
     [Route("[controller]")]

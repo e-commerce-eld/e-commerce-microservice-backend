@@ -11,9 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using OrdemExample.Models;
+using Commerce.Models;
 
-namespace OrdemExample
+namespace Commerce
 {
     public class Startup
     {

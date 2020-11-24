@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using OrdemExample.Models;
+using Commerce.Models;
 
-namespace OrdemExample.Migrations
+namespace Commerce.Migrations
 {
     [DbContext(typeof(OrderContext))]
     [Migration("20201109143535_OrdersTable")]
@@ -20,7 +20,7 @@ namespace OrdemExample.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("OrdemExample.Models.Order", b =>
+            modelBuilder.Entity("Commerce.Models.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

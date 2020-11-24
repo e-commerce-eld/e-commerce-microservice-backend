@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OrdemExample.Models;
+using Commerce.Models;
 
-namespace OrdemExample.Controllers
+namespace Commerce.Controllers
 {
     [Route("api/Order")]
     [ApiController]
