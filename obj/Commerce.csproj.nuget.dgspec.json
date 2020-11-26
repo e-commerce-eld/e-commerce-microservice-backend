@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriela_alves_da_ga\\Desktop\\eld\\OrderExample\\Commerce.csproj": {}
+    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriela_alves_da_ga\\Desktop\\eld\\OrderExample\\Commerce.csproj": {
+    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriela_alves_da_ga\\Desktop\\eld\\OrderExample\\Commerce.csproj",
+        "projectUniqueName": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj",
         "projectName": "Commerce",
-        "projectPath": "C:\\Users\\gabriela_alves_da_ga\\Desktop\\eld\\OrderExample\\Commerce.csproj",
-        "packagesPath": "C:\\Users\\gabriela_alves_da_ga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriela_alves_da_ga\\Desktop\\eld\\OrderExample\\obj\\",
+        "projectPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj",
+        "packagesPath": "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabriela_alves_da_ga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nayara_rossi_brito_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,11 +48,11 @@
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[3.1.9, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -60,17 +60,17 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
