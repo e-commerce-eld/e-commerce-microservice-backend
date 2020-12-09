@@ -32,7 +32,7 @@ namespace Commerce.Controllers
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
 
-            var order = await _context.Orders.Include(order => order.Client).FirstOrDefaultAsync(order => order.OrderId == id);
+            var order = await _context.Orders.FindAsync(id);
 
             if (order == null)
             {
