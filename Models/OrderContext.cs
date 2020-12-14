@@ -24,12 +24,15 @@ namespace Commerce.Models
                 .HasOne(po => po.Order)
                 .WithMany(o => o.ProductOrders)
                 .HasForeignKey(po => po.OrderId);
+
+         
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Client> Clients { get; set; }
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+
 
         public DbSet<ProductOrder> ProductOrders { get; set; }
 

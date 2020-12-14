@@ -11,13 +11,11 @@ namespace Commerce.Models
         public float Price { get; set; }
         public string Description { get; set; }
 
-        public int OrderId { get; set; }
         public int CategoryId { get; set; }
         [JsonIgnore]
 
         public ICollection<ProductOrder> ProductOrders { get; set; }
-
-        public Category Category { get; set; }
+     
 
     }
 }
