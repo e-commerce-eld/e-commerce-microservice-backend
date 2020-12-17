@@ -13,13 +13,10 @@ namespace Commerce.Models
         public string Address{get;set;}
 
         public int ClientId { get; set; }
-
         
         [JsonIgnore]
         public Client Client {get;set;}
-        [JsonIgnore]
-        public ICollection<Product> Products { get; set; }
-        [JsonIgnore]
+     
         public ICollection<ProductOrder> ProductOrders { get; set; }
 
 

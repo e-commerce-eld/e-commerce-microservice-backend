@@ -57,7 +57,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.dll": {}
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
           "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
@@ -72,16 +72,16 @@
           "build/_._": {}
         }
       },
-      "Microsoft.CodeAnalysis.Common/3.7.0": {
+      "Microsoft.CodeAnalysis.Common/3.8.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.0.0",
-          "System.Collections.Immutable": "1.5.0",
+          "System.Collections.Immutable": "5.0.0",
           "System.Memory": "4.5.4",
-          "System.Reflection.Metadata": "1.6.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.7.0",
+          "System.Reflection.Metadata": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1",
           "System.Text.Encoding.CodePages": "4.5.1",
-          "System.Threading.Tasks.Extensions": "4.5.3"
+          "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll": {}
@@ -131,10 +131,10 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/3.7.0": {
+      "Microsoft.CodeAnalysis.CSharp/3.8.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[3.7.0]"
+          "Microsoft.CodeAnalysis.Common": "[3.8.0]"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {}
@@ -184,13 +184,13 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Workspaces/3.7.0": {
+      "Microsoft.CodeAnalysis.CSharp.Workspaces/3.8.0": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.2.0",
-          "Microsoft.CodeAnalysis.CSharp": "[3.7.0]",
-          "Microsoft.CodeAnalysis.Common": "[3.7.0]",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "[3.7.0]"
+          "Microsoft.CodeAnalysis.CSharp": "[3.8.0]",
+          "Microsoft.CodeAnalysis.Common": "[3.8.0]",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "[3.8.0]"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {}
@@ -254,11 +254,11 @@
           "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Workspaces.Common/3.7.0": {
+      "Microsoft.CodeAnalysis.Workspaces.Common/3.8.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
-          "Microsoft.CodeAnalysis.Common": "[3.7.0]",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Microsoft.CodeAnalysis.Common": "[3.8.0]",
           "System.Composition": "1.0.31"
         },
         "compile": {
@@ -783,11 +783,11 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/5.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "5.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "5.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "5.0.1"
         },
         "compile": {
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {}
@@ -796,7 +796,7 @@
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/5.0.1": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -809,11 +809,11 @@
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Core/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/5.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "5.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "5.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "5.0.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
@@ -823,10 +823,10 @@
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "5.0.0"
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "5.0.1"
         },
         "compile": {
           "lib/net5.0/dotnet-aspnet-codegenerator-design.dll": {}
@@ -845,10 +845,10 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "5.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "5.0.1"
         },
         "compile": {
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {}
@@ -857,14 +857,14 @@
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/5.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "5.0.0",
           "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
-          "Microsoft.CodeAnalysis.CSharp": "3.7.0",
+          "Microsoft.CodeAnalysis.CSharp": "3.8.0",
           "Microsoft.CodeAnalysis.Razor": "5.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "5.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "5.0.1"
         },
         "compile": {
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {}
@@ -873,11 +873,11 @@
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "3.7.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "5.0.0",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "3.8.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "5.0.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
@@ -887,10 +887,10 @@
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/5.0.0": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration": "5.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration": "5.0.1"
         },
         "compile": {
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
@@ -2095,7 +2095,7 @@
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
         }
       },
-      "System.Reflection.Metadata/1.6.0": {
+      "System.Reflection.Metadata/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
@@ -2169,7 +2169,7 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.7.0": {
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -2681,7 +2681,7 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.3": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -2889,13 +2889,14 @@
         "microsoft.aspnetcore.razor.runtime.nuspec"
       ]
     },
-    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
-      "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -2904,7 +2905,7 @@
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
         "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
         "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -3014,10 +3015,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.CodeAnalysis.Common/3.7.0": {
-      "sha512": "SFEdnbw8204hTlde3JePYSIpNX58h/MMXa7LctUsUDigWMR8Ar9gE8LnsLqAIFM0O33JEuQbJ0G4Sat+cPGldw==",
+    "Microsoft.CodeAnalysis.Common/3.8.0": {
+      "sha512": "8YTZ7GpsbTdC08DITx7/kwV0k4SC6cbBAFqc13cOm5vKJZcEIAh51tNSyGSkWisMgYCr96B2wb5Zri1bsla3+g==",
       "type": "package",
-      "path": "microsoft.codeanalysis.common/3.7.0",
+      "path": "microsoft.codeanalysis.common/3.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3055,14 +3056,14 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
-        "microsoft.codeanalysis.common.3.7.0.nupkg.sha512",
+        "microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
         "microsoft.codeanalysis.common.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.CSharp/3.7.0": {
-      "sha512": "sKi5PIVy9nVDerkbplY6OQhJBNzEO4XJsMGrnmb6KFEa6K1ulGCHIv6NtDjdUQ/dGrouU3OExc3yzww0COD76w==",
+    "Microsoft.CodeAnalysis.CSharp/3.8.0": {
+      "sha512": "hKqFCUSk9TIMBDjiYMF8/ZfK9p9mzpU+slM73CaCHu4ctfkoqJGHLQhyT8wvrYsIg+ufrUWBF8hcJYmyr5rc5Q==",
       "type": "package",
-      "path": "microsoft.codeanalysis.csharp/3.7.0",
+      "path": "microsoft.codeanalysis.csharp/3.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3100,14 +3101,14 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "microsoft.codeanalysis.csharp.3.7.0.nupkg.sha512",
+        "microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
         "microsoft.codeanalysis.csharp.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.CSharp.Workspaces/3.7.0": {
-      "sha512": "NEqtGXFoxJhTPHLjaNPEZPuJ4kfz4bGaqSvxfxY30VN8Ro1JfOHnPktshKJUBD4BleiBbAibRAxMBj3h6/1lDw==",
+    "Microsoft.CodeAnalysis.CSharp.Workspaces/3.8.0": {
+      "sha512": "rdEBvPWqe/IIscsnp7OkZ4tQin8khxBcSLyV9tU+sHdw9uW9U0GKL+Dv2rD4voC1bZBaO18Hp+m4Vkyfmaz0OA==",
       "type": "package",
-      "path": "microsoft.codeanalysis.csharp.workspaces/3.7.0",
+      "path": "microsoft.codeanalysis.csharp.workspaces/3.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3145,7 +3146,7 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "microsoft.codeanalysis.csharp.workspaces.3.7.0.nupkg.sha512",
+        "microsoft.codeanalysis.csharp.workspaces.3.8.0.nupkg.sha512",
         "microsoft.codeanalysis.csharp.workspaces.nuspec"
       ]
     },
@@ -3163,10 +3164,10 @@
         "microsoft.codeanalysis.razor.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.Workspaces.Common/3.7.0": {
-      "sha512": "HIMgEg5rMO00JIntfAfIoBJAtVOxBgxwVjR0zl1OL1BkjfrBJCK4yragf5J/RpLXIDjkexYnt9OM353UGDbkuw==",
+    "Microsoft.CodeAnalysis.Workspaces.Common/3.8.0": {
+      "sha512": "GPYVydsmOmScOWDJA1LFky7/MkoXpx1JI3lZJShxC+bvVUvL9zVKE8WDZMLsYJ5MAbry2xkZftdfeMpZ+kvLDQ==",
       "type": "package",
-      "path": "microsoft.codeanalysis.workspaces.common/3.7.0",
+      "path": "microsoft.codeanalysis.workspaces.common/3.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3204,7 +3205,7 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "microsoft.codeanalysis.workspaces.common.3.7.0.nupkg.sha512",
+        "microsoft.codeanalysis.workspaces.common.3.8.0.nupkg.sha512",
         "microsoft.codeanalysis.workspaces.common.nuspec"
       ]
     },
@@ -3965,59 +3966,59 @@
         "runtime.json"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/5.0.0": {
-      "sha512": "CcV/M7t1Yz7lIpAHsvT1tWHEYUXB0zZWsEV5bFbPLEOxVnCKfaTpc+6SQ3Y46k2UQmtlHF2i7/9q9NAo2ShPQg==",
+    "Microsoft.VisualStudio.Web.CodeGeneration/5.0.1": {
+      "sha512": "+UbVWKosEMf9AW/6H7GrlU20wXwZ+/8o4yHk4QiZzODzgVzrkLaPkV7ioj58/06KvhetyPJ2wNR4eXQNZ53tgw==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration/5.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.dll",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.xml",
-        "microsoft.visualstudio.web.codegeneration.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/5.0.0": {
-      "sha512": "YdszGekc9H5FAj1XM8Sb03cV2bHN6o6MLApElNQcSamloGQpWiyXkj0udH4q435SMnUfwFOmtCP115RbrfkUbw==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/5.0.1": {
+      "sha512": "so0+F5gW7kVQd0aCH86zc+KduHax1GGt7u8gdiypJsCL0NFIX96rejOefpJN+qhpWFUisjWTPGUMcSYuUvIIJg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.contracts/5.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration.contracts/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.xml",
-        "microsoft.visualstudio.web.codegeneration.contracts.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.contracts.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.contracts.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Core/5.0.0": {
-      "sha512": "ytpnLoLBsMsKmV0y3QGbx6r8mrSOVBcAWj42kYHLGHibNAibzLMWJo9QAD0Qtsp7J6v7MCUCY6dv9pF01WTzCg==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/5.0.1": {
+      "sha512": "MOuDz7SX4ODoQqd9+TGhIO6qdBTBCjZ/7M98Y0nrj5fLrk4M6P7CWffI89m686acfmWSb0+7KC6TIKX9fODV0w==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.core/5.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration.core/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.xml",
-        "microsoft.visualstudio.web.codegeneration.core.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.core.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.core.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/5.0.0": {
-      "sha512": "bruC0mJGo/nQ6u/xUl01Xnl0bAwhHDNJrRR24i33I69Lvrv8FSy1a14XTa6s19v+f5PTFlD+pAFP9H5po4MX4Q==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/5.0.1": {
+      "sha512": "vOyq0iocfEVA2lR5RkKzZLJbszmBgwk4Qz0TDghzLdAaL1+lPkFWnFlJ1wbR4mVVmurMSmnXFlYbbjcKmzOGWA==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.design/5.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration.design/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net5.0/dotnet-aspnet-codegenerator-design.dll",
         "lib/net5.0/dotnet-aspnet-codegenerator-design.xml",
-        "microsoft.visualstudio.web.codegeneration.design.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.design.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.design.nuspec",
         "runtimes/win-arm/lib/net5.0/dotnet-aspnet-codegenerator-design.exe",
         "runtimes/win-arm/lib/net5.0/dotnet-aspnet-codegenerator-design.xml",
@@ -4025,10 +4026,10 @@
         "runtimes/win-arm64/lib/net5.0/dotnet-aspnet-codegenerator-design.xml"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/5.0.0": {
-      "sha512": "5WZKi7ZJ4wgUmorA8gg6+CMaakYnl/HGkfHBISZwY1gnVZSQEwdlsggj7cZ5mHzADiEMx97Jlvu7ynV2x10pkw==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/5.0.1": {
+      "sha512": "v8i6qz0N5p7Tankyi1MHwjZl5/pmKeKkXcao+8hkCrcaX5yv4P7vGkgcl8arQNfmtGGenmqVGFHZOWIkwNElYA==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/5.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4037,42 +4038,42 @@
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.runtimeconfig.json",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.xml",
-        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/5.0.0": {
-      "sha512": "vfcYXWVg7bCZPAuq7O85NotEiItgw2TdphyeTViTGxtcM2LQs4ftOp4BJUUxn+zUOxfnA43fvruht4ykFXcGiw==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/5.0.1": {
+      "sha512": "+lKKgzWYUtKjlEkIfPkO+4uYl74idZKx1y2T29bpUv14X4hASYB+P0a55zC8anlIbwDCD5ShPX6txd5+5BES2A==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.templating/5.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.xml",
-        "microsoft.visualstudio.web.codegeneration.templating.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.templating.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.templating.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/5.0.0": {
-      "sha512": "orN5nFA9CG4k77GxKWR6cMjNTRnnskZP2pxZokLaiH5xXkLFEQ4DISRfNKMDiV9ik+r7O124A8524jdeW46/Pw==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/5.0.1": {
+      "sha512": "fXQY9chx9mIErQGpshoYhjgCv10UeG14Gzeh1oyvwUDW7Mtxx3Xtmz8IBmT8x9hw62uLTRbFFQ2ry2sZpGLRCg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.utils/5.0.0",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll",
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.xml",
-        "microsoft.visualstudio.web.codegeneration.utils.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.utils.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.utils.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/5.0.0": {
-      "sha512": "5kaOOs0Q4i6Zm0L+89dJWCrAmBQYtCO3jALi6JRNRrlE6rJRKRGcQ/TdBQhUVNaM+1RHQ/DZN6kssNKPlMseEA==",
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/5.0.1": {
+      "sha512": "u5piiR8X8WAmcQ1vbthd9jqxKeESCEC7AH+zZKFwrMI870J4++FvYaOf/zIJaesVIm1q7L7yH85AMkP3i1S6fg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/5.0.0",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4369,7 +4370,7 @@
         "lib/net5.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.xml",
         "lib/net5.0/bootstrap3_identitygeneratorfilesconfig.json",
         "lib/net5.0/bootstrap4_identitygeneratorfilesconfig.json",
-        "microsoft.visualstudio.web.codegenerators.mvc.5.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.codegenerators.mvc.5.0.1.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
@@ -7029,22 +7030,25 @@
         "system.reflection.extensions.nuspec"
       ]
     },
-    "System.Reflection.Metadata/1.6.0": {
-      "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
+    "System.Reflection.Metadata/5.0.0": {
+      "sha512": "5NecZgXktdGg34rh1OenY1rFNDCI8xSjFr+Z4OU4cU06AQHUdRnIIEeWENu3Wl4YowbzkymAIMvi3WyK9U53pQ==",
       "type": "package",
-      "path": "system.reflection.metadata/1.6.0",
+      "path": "system.reflection.metadata/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Reflection.Metadata.dll",
+        "lib/net461/System.Reflection.Metadata.xml",
         "lib/netstandard1.1/System.Reflection.Metadata.dll",
         "lib/netstandard1.1/System.Reflection.Metadata.xml",
         "lib/netstandard2.0/System.Reflection.Metadata.dll",
         "lib/netstandard2.0/System.Reflection.Metadata.xml",
         "lib/portable-net45+win8/System.Reflection.Metadata.dll",
         "lib/portable-net45+win8/System.Reflection.Metadata.xml",
-        "system.reflection.metadata.1.6.0.nupkg.sha512",
+        "system.reflection.metadata.5.0.0.nupkg.sha512",
         "system.reflection.metadata.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -7346,26 +7350,31 @@
         "version.txt"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.7.0": {
-      "sha512": "IpU1lcHz8/09yDr9N+Juc7SCgNUz+RohkCQI+KsWKR67XxpFr8Z6c8t1iENCXZuRuNCc4HBwme/MDHNVCwyAKg==",
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "sha512": "zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.7.0",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -8745,10 +8754,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "System.Threading.Tasks.Extensions/4.5.3": {
-      "sha512": "+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "type": "package",
-      "path": "system.threading.tasks.extensions/4.5.3",
+      "path": "system.threading.tasks.extensions/4.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8756,6 +8765,8 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
         "lib/netcoreapp2.1/_._",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
@@ -8774,7 +8785,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
         "system.threading.tasks.extensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -9117,7 +9128,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.1"
     ]
   },
   "packageFolders": {
@@ -9126,11 +9137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj",
+      "projectUniqueName": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj",
       "projectName": "Commerce",
-      "projectPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj",
+      "projectPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj",
       "packagesPath": "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\obj\\",
+      "outputPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nayara_rossi_brito_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9189,7 +9200,7 @@
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.1, )"
           }
         },
         "imports": [

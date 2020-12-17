@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj": {}
+    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj": {
+    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj",
+        "projectUniqueName": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj",
         "projectName": "Commerce",
-        "projectPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\Commerce.csproj",
+        "projectPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj",
         "packagesPath": "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\OrdemExample\\obj\\",
+        "outputPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nayara_rossi_brito_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,7 +70,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

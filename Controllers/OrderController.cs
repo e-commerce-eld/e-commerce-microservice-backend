@@ -80,7 +80,12 @@ namespace Commerce.Controllers
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
+          //  var relation = new ProductOrder();
+            //relation.OrderId = order.OrderId;
+            //relation.ProductId = order.ProductId;
+
             _context.Orders.Add(order);
+
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetOrder", new { id = order.OrderId }, order);
