@@ -27,7 +27,7 @@ namespace Commerce.Controllers
             return await _context.Clients.ToListAsync();
         }
 
-        // GET: api/Clients/5/orders
+        // GET: api/Clients/5/
         [HttpGet("{id}")]
         public async Task<ActionResult<Client>> GetClient(int id)
         {

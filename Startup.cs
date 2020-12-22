@@ -30,6 +30,7 @@ namespace Commerce
             // services.AddDbContext<OrderContext>(opt =>
             //    opt.UseInMemoryDatabase("OrderList"));
             services.AddDbContext<OrderContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));//Configurando o DB
+            services.AddScoped<Interfaces.IOrder, Order>();
             services.AddControllers();
         }
 

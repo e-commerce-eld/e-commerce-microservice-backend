@@ -6,19 +6,23 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Commerce.Models;
+using Commerce.Interfaces;
 
 namespace Commerce.Controllers
 {
-    [Route("api/Order")]
+    [Route("api/orders")]
     [ApiController]
     public class OrderController : ControllerBase
     {
         private readonly OrderContext _context;
-
-        public OrderController(OrderContext context)
+        private IOrder orderObject;
+        public OrderController(OrderContext context, IOrder orderOb)
         {
             _context = context;
+            orderObject = orderOb;
         }
+
+        
 
         // GET: api/Order
         [HttpGet]
@@ -37,6 +41,23 @@ namespace Commerce.Controllers
             if (order == null)
             {
                 return NotFound();
+            }
+
+            return order;
+        }
+
+        // GET: api/Order/Client/5
+        [HttpGet("client/{id}")]
+        public async Task<ICollection<Order>> GetOrderfromClient(int id)
+        {
+            //ICollection<Order> myresult;
+            var order = await orderObject.GetOrderFromClient(id);
+
+           // myresult = order;
+
+            if (order == null)
+            {
+                //return NotFound();
             }
 
             return order;

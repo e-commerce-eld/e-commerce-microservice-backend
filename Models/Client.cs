@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Commerce.Interfaces;
 namespace Commerce.Models
 
 {
@@ -11,6 +12,7 @@ namespace Commerce.Models
         public string Cpf{get;set;}
         [JsonIgnore]
         public ICollection<Order> Orders { get; set;}
+
     }
 
 //    public Order(){
