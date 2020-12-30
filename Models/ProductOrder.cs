@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.Json;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
+
 namespace Commerce.Models
 {
     public class ProductOrder
@@ -10,9 +8,7 @@ namespace Commerce.Models
         public int OrderId { get; set; }
         public int QuantityProduct { get; set; }
 
-        [JsonIgnore]
-        public Product Product { get; set; }
-        [JsonIgnore]
-        public Order Order { get; set; }
+        [JsonIgnore] public Product Product { get; set; }
+        [JsonIgnore] public Order Order { get; set; }
     }
 }

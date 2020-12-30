@@ -1,0 +1,107 @@
+﻿GET https://localhost:5001/api/Order
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+
+<> 2020-12-23T103654.500.txt
+
+###
+
+GET https://localhost:5001/api/Order
+
+###
+
+GET https://localhost:5001/api/Order
+
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+
+Accept: application/json
+
+<> 2020-12-23T102652.500.txt
+
+###
+
+GET https://localhost:5001/api/Order
+
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+
+Accept: application/json
+
+<> 2020-12-23T093143.500.txt
+
+###
+
+GET https://localhost:5001/api/Order
+
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+
+Accept: application/json
+
+<> 2020-12-22T143653.500.txt
+
+###
+
+GET https://localhost:5001/api/orders
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/orders
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Accept: application/json
+
+<> 2020-12-22T142904.500.txt
+
+###
+

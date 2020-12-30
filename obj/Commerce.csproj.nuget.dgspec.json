@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj": {}
+    "C:\\Users\\gabriela_alves_da_ga\\eld\\E-commerce\\Commerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj": {
+    "C:\\Users\\gabriela_alves_da_ga\\eld\\E-commerce\\Commerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj",
+        "projectUniqueName": "C:\\Users\\gabriela_alves_da_ga\\eld\\E-commerce\\Commerce.csproj",
         "projectName": "Commerce",
-        "projectPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj",
-        "packagesPath": "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\obj\\",
+        "projectPath": "C:\\Users\\gabriela_alves_da_ga\\eld\\E-commerce\\Commerce.csproj",
+        "packagesPath": "C:\\Users\\gabriela_alves_da_ga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriela_alves_da_ga\\eld\\E-commerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nayara_rossi_brito_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriela_alves_da_ga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,18 @@
         "net5.0": {
           "targetAlias": "netcoreapp5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -65,6 +77,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[5.0.1, )"
             },

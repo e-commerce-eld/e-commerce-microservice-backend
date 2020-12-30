@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\gabriela_alves_da_ga\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\gabriela_alves_da_ga\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\gabriela_alves_da_ga\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\gabriela_alves_da_ga\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\gabriela_alves_da_ga\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\gabriela_alves_da_ga\eld\E-commerce" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Commerce.csproj" t="IncludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="ClientsController.cs" t="Include" />
+        <e p="OrderController.cs" t="Include" />
+        <e p="ProductsController.cs" t="Include" />
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20201109143535_OrdersTable.cs" t="Include" />
+        <e p="20201109143535_OrdersTable.Designer.cs" t="Include" />
+        <e p="20201112125221_ClientModel.cs" t="Include" />
+        <e p="20201112125221_ClientModel.Designer.cs" t="Include" />
+        <e p="20201113130347_ClientsFix.cs" t="Include" />
+        <e p="20201113130347_ClientsFix.Designer.cs" t="Include" />
+        <e p="20201113141026_ClientsDropOrder.cs" t="Include" />
+        <e p="20201113141026_ClientsDropOrder.Designer.cs" t="Include" />
+        <e p="20201214135602_IntermediateTable.cs" t="Include" />
+        <e p="20201214135602_IntermediateTable.Designer.cs" t="Include" />
+        <e p="OrderContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="AutoMapping.cs" t="Include" />
+        <e p="Category.cs" t="Include" />
+        <e p="Client.cs" t="Include" />
+        <e p="ClientOrderDTO.cs" t="Include" />
+        <e p="Order.cs" t="Include" />
+        <e p="OrderContext.cs" t="Include" />
+        <e p="OrderDTO.cs" t="Include" />
+        <e p="Product.cs" t="Include" />
+        <e p="ProductDTO.cs" t="Include" />
+        <e p="ProductOrder.cs" t="Include" />
+        <e p="ProductOrderDTO.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp5.0" t="Include">
+            <e p="Commerce.AssemblyInfo.cs" t="Include" />
+            <e p="Commerce.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="Views" t="Include">
+        <e p="Categories" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Products" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="WeatherForecast.cs" t="Include" />
+    </e>
+  </component>
+</project>
