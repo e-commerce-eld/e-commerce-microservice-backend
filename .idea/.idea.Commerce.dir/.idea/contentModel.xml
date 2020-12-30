@@ -15,7 +15,6 @@
         <e p="ClientsController.cs" t="Include" />
         <e p="OrderController.cs" t="Include" />
         <e p="ProductsController.cs" t="Include" />
-        <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20201109143535_OrdersTable.cs" t="Include" />
@@ -28,6 +27,8 @@
         <e p="20201113141026_ClientsDropOrder.Designer.cs" t="Include" />
         <e p="20201214135602_IntermediateTable.cs" t="Include" />
         <e p="20201214135602_IntermediateTable.Designer.cs" t="Include" />
+        <e p="20201229145639_UpdateOrderTable.cs" t="Include" />
+        <e p="20201229145639_UpdateOrderTable.Designer.cs" t="Include" />
         <e p="OrderContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
@@ -76,7 +77,6 @@
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
         </e>
       </e>
-      <e p="WeatherForecast.cs" t="Include" />
     </e>
   </component>
 </project>
