@@ -44,7 +44,7 @@ namespace Commerce.Controllers
                 return NotFound();
             }
 
-            return order;
+            return Ok(_mapper.Map<IEnumerable<OrderDto>>(order));
         }
 
         // PUT: api/Order/5
@@ -81,6 +81,7 @@ namespace Commerce.Controllers
         // POST: api/Order
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
             //  var relation = new ProductOrder();

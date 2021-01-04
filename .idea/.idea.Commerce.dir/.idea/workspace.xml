@@ -4,26 +4,9 @@
     <projectFile>Commerce.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a000cf3-ebcd-41ec-95fa-6a4f7aa0a75c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Commerce.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Commerce.dir/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="0a000cf3-ebcd-41ec-95fa-6a4f7aa0a75c" name="Default Changelist" comment="refactor: refactored the configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Commerce.dir/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Commerce.dir/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Commerce.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Commerce.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Commerce/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Commerce/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Commerce/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Commerce/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp5.0/Commerce.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Commerce.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Commerce.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp5.0/Commerce.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +38,9 @@
       <option value="$PROJECT_DIR$/Models/ProductOrderDTO.cs" />
       <option value="$PROJECT_DIR$/Models/OrderContext.cs" />
       <option value="$PROJECT_DIR$/Startup.cs" />
-      <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" />
       <option value="$PROJECT_DIR$/Controllers/OrderController.cs" />
       <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+      <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lxzj4wMAcZLBZXE4OYaj032zLt" />
@@ -67,7 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34980392" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498452" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -190,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608553664141</updated>
       <workItem from="1608553875840" duration="30728000" />
-      <workItem from="1609334422679" duration="732000" />
+      <workItem from="1609334422679" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="Removed unnecessary classes auto created">
       <created>1608644837843</created>
@@ -199,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608644837844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor: refactored the configuration">
+      <created>1609335270624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609335270624</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +213,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Removed unnecessary classes auto created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary classes auto created" />
+    <MESSAGE value="refactor: refactored the configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: refactored the configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

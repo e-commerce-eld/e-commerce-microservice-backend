@@ -7,10 +7,9 @@ namespace Commerce.Models
         public AutoMapping()
         {
             CreateMap<Product, ProductDto>();
-            CreateMap<Order, OrderDto>()
-                .ForMember(dest => dest.ProductOrders,
-                    opts => opts.MapFrom(src => src.ProductOrders)).ReverseMap();
-            CreateMap<ProductOrder, ProductOrderDto>();
+            CreateMap<Order, OrderDto>();
+            CreateMap<ProductOrder, ProductOrderDto>().ReverseMap();
+
         }
     }
 }

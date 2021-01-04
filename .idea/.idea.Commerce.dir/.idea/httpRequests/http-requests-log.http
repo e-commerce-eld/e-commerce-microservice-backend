@@ -12,6 +12,18 @@ Accept: application/json
 
 GET https://localhost:5001/api/Order
 Content-Type: application/json
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/Order
+Content-Type: application/json
 
 ###
 
