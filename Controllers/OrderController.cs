@@ -29,7 +29,7 @@ namespace Commerce.Controllers
         [HttpGet]
         public async Task<ActionResult<OrderDto>> GetOrders()
         {
-            var orders = await _context.Orders.ToListAsync();
+            var orders = await _context.Orders.Include(p => p.ProductOrders).ToListAsync();
             return Ok(_mapper.Map<IEnumerable<OrderDto>>(orders));
         }
 

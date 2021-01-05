@@ -9,5 +9,7 @@ namespace Commerce.Models
         public DateTime OrderDate { get; set; }
         public string Status { get; set; }
         public ICollection<ProductOrderDto> ProductOrders { get; set; }
-    }
+
+        }
+    
 }
