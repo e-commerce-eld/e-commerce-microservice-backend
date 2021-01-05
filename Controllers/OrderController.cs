@@ -63,6 +63,22 @@ namespace Commerce.Controllers
             return order;
         }
 
+        [HttpGet("{id}/products")]
+        public async Task<ICollection<Product>> GetProductFromOrder(int id)
+        {
+            //ICollection<Order> myresult;
+            var products = await orderObject.GetProductsfromOrder(id);
+
+            // myresult = order;
+
+            if (products == null)
+            {
+                //return NotFound();
+                return null;
+            }
+
+            return products;
+        }
         // PUT: api/Order/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.

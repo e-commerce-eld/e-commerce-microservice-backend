@@ -9,5 +9,7 @@ namespace Commerce.Interfaces
     public interface IOrder
     {
         Task<ICollection<Order>> GetOrderFromClient(int id);
+
+        Task<ICollection<Product>> GetProductsfromOrder(int id);
     }
 }

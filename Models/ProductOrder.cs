@@ -10,7 +10,7 @@ namespace Commerce.Models
         public int OrderId { get; set; }
         public int QuantityProduct { get; set; }
 
-        [JsonIgnore]
+      
         public Product Product { get; set; }
         [JsonIgnore]
         public Order Order { get; set; }

@@ -13,6 +13,9 @@ namespace Commerce.Models
             modelBuilder.Entity<Client>()
                 .HasMany(c => c.Orders)
                 .WithOne(o => o.Client);
+            modelBuilder.Entity<Category>()
+            .HasMany(ca => ca.Products)
+            .WithOne(p => p.Category);
 
             modelBuilder.Entity<ProductOrder>()
                 .HasKey(po => new { po.ProductId, po.OrderId });
