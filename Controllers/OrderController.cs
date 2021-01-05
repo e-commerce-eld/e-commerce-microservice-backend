@@ -1,41 +1,48 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+using System.Web.Http.Description;
+using AutoMapper;
+using Commerce.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Commerce.Models;
 using Commerce.Interfaces;
 
 namespace Commerce.Controllers
+
 {
-    [Route("api/orders")]
+    
     [ApiController]
+    [Route("api/[controller]")]
     public class OrderController : ControllerBase
     {
         private readonly OrderContext _context;
         private IOrder orderObject;
-        public OrderController(OrderContext context, IOrder orderOb)
+        private readonly IMapper _mapper;
+
+        public OrderController(OrderContext context, IOrder orderOb,  IMapper mapper)
         {
             _context = context;
             orderObject = orderOb;
+            _mapper = mapper;
         }
 
         
 
         // GET: api/Order
+        [ResponseType(typeof(OrderDto))]
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
+        public async Task<ActionResult<OrderDto>> GetOrders()
         {
-            return await _context.Orders.ToListAsync();
+            var orders = await _context.Orders.Include(p => p.ProductOrders).ToListAsync();
+            return Ok(_mapper.Map<IEnumerable<OrderDto>>(orders));
         }
 
         // GET: api/Order/5
-        [HttpGet("{id}")]
+
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
-
             var order = await _context.Orders.FindAsync(id);
 
             if (order == null)
@@ -43,7 +50,7 @@ namespace Commerce.Controllers
                 return NotFound();
             }
 
-            return order;
+            return Ok(_mapper.Map<IEnumerable<OrderDto>>(order));
         }
 
         // GET: api/Order/Client/5
@@ -82,7 +89,6 @@ namespace Commerce.Controllers
         // PUT: api/Order/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(int id, Order order)
         {
             if (id != order.OrderId)
@@ -117,7 +123,7 @@ namespace Commerce.Controllers
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
-          //  var relation = new ProductOrder();
+            //  var relation = new ProductOrder();
             //relation.OrderId = order.OrderId;
             //relation.ProductId = order.ProductId;
 
@@ -125,11 +131,11 @@ namespace Commerce.Controllers
 
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetOrder", new { id = order.OrderId }, order);
+            return CreatedAtAction("GetOrder", new {id = order.OrderId}, order);
         }
 
         // DELETE: api/Order/5
-        [HttpDelete("{id}")]
+
         public async Task<ActionResult<Order>> DeleteOrder(int id)
         {
             var order = await _context.Orders.FindAsync(id);

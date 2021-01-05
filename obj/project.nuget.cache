@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Abm1WQy9YpjDMV+69ara/zRqZqqBYhWRHjOq1CzdBj6Z7CT+73fyYj4FQGk6NWvvA6ggOvorwjuGwDTmeqrOVA==",
+  "dgSpecHash": "3ejoK+weTjMTpFvPEJNhSFnW3Bb4dbeDrMQsA4EGF7paPjWCup+KICgmgDvYvENtQCplF1y3Xtp6XdTrs2swxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nayara_rossi_brito_d\\source\\repos\\Commerce\\Commerce.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\microsoft.aspnet.webapi\\5.2.7\\microsoft.aspnet.webapi.5.2.7.nupkg.sha512",
@@ -140,7 +142,7 @@
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\Nayara_rossi_brito_d\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

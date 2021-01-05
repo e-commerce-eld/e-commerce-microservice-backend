@@ -27,6 +27,8 @@ namespace Commerce.Models
                 .HasOne(po => po.Order)
                 .WithMany(o => o.ProductOrders)
                 .HasForeignKey(po => po.OrderId);
+            modelBuilder.Entity<Order>()
+                .HasKey(o => o.OrderId);
 
          
         }
